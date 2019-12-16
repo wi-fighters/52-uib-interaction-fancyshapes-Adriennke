@@ -1,8 +1,41 @@
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
+    font-size: 1.2em;
 }
 
 section {
     margin-top: 10px;
+    /* display: block;
+    max-width: 700px;
+    margin: auto; */
+}
+
+.task-one {
+    background-color: aqua;
+}
+
+p::before {
+    content: "Once upon a time...";
+    background-color: violet;
+
+}
+
+p::after {
+    content: "...The end.";
+    background-color: violet;
+}
+
+img {
+    width: 175px;
+    height: 175px;
+    transform: rotate(-45deg) translateX(70px) translateY(100px);
+
+}
+
+.task-three {
+    transform: rotate(180deg);
+    width: 145px;
+    height: 115px;
 }
